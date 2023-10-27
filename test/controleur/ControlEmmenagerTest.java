@@ -16,8 +16,8 @@ class ControlEmmenagerTest {
 	public void initialiserSituation() {
 		System.out.println("Initialisation...");
 		Village village = new Village("Le village des Irréductibles",10,5);
-		Chef Abracourcix = new Chef("Abracourcix", 5, village);
-		village.setChef(Abracourcix);
+		Chef chef = new Chef("Abracourcix", 5, village);
+		village.setChef(chef);
 	}
 	
 	@Test
